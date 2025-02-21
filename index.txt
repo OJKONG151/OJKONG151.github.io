@@ -2,23 +2,23 @@ vCard - Personal Portfolio
 
 # sidebar
 
-alt = Richard hanrick
-Richard hanrick
-Web developer
+alt = Om Joshi
+Om Joshi
+Student | Programmer | Innovator
 
 Show Contacts
 
 Email
-richard@example.com
+om21.joshi@gmail.com
 
 Phone
-+1 (213) 352-2795
+why do you want my number? 🧐🧐
 
 Birthday
-June 23, 1982
+June 27
 
 Location
-Sacramento, California, USA
+Dallas, Texas, USA
 
 # navbar
 
