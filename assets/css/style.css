@@ -306,7 +306,7 @@ main {
   min-width: 259px;
 }
 
-
+/*-----------------------------------*\
 .title {
   display: inline;
 }
@@ -316,7 +316,7 @@ main {
   display: inline;
   font-size: 50px;
 }
-
+\*-----------------------------------*/
 
 
 /*-----------------------------------*\
@@ -504,7 +504,7 @@ main {
   #ABOUT
 \*-----------------------------------*/
 
-.about .article-title { margin-bottom: 15px; }
+.about .article-title { margin-bottom: 20px; }
 
 .about-text {
   color: var(--light-gray);
@@ -513,7 +513,7 @@ main {
   line-height: 1.6;
 }
 
-.about-text p { margin-bottom: 15px; }
+.about-text p { margin-bottom: 25px; }
 
 
 
