@@ -306,11 +306,15 @@ main {
   min-width: 259px;
 }
 
-.typing {
+
+.title {
   display: inline;
 }
 
 
+.typing {
+  display: inline;
+}
 
 
 
