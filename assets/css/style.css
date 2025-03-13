@@ -306,6 +306,9 @@ main {
   min-width: 259px;
 }
 
+.title {
+  display: inline;
+}
 
 .typing {
   display: inline;
