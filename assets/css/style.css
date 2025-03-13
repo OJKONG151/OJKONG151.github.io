@@ -306,6 +306,10 @@ main {
   min-width: 259px;
 }
 
+.typing {
+  display: inline;
+}
+
 
 
 
