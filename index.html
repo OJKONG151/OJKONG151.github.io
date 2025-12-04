@@ -1723,104 +1723,172 @@
 
       <article class="portfolio" data-page="photography">
 
-  <header>
-    <h2 class="h2 article-title">Photography</h2>
-  </header>
+        <header>
+          <h2 class="h2 article-title">Photography</h2>
+        </header>
 
-  <section class="projects">
+        <section class="projects">
 
-    <ul class="project-list">
+          <ul class="filter-list">
 
-      <li class="project-item active">
-        <a href="https://drive.google.com/file/d/1zU29WAyWX8N2YIlp6qLr05WlXIe1OYdB/view?usp=sharing" target="_blank">
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
 
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/Photography/aaibaba.jpeg" alt="Through the Open Door" loading="lazy">
-          </figure>
+            <!--
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
 
-          <h3 class="project-title">Through the Open Door</h3>
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
 
-          <p class="project-category">We touched down in the middle of nowhere, only to find everything that mattered already there.</p>
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+            -->
 
-        </a>
-      </li>
+          </ul>
 
-      <li class="project-item active">
-        <a href="https://drive.google.com/file/d/1TW1l4RF585xMy28oeZNPHr4TQkJXzsKz/view?usp=sharing" target="_blank">
+          <div class="filter-select-box">
 
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/Photography/longhorn.jpeg" alt="The Curve of Confidence" loading="lazy">
-          </figure>
+            <button class="filter-select" data-select>
 
-          <h3 class="project-title">The Curve of Confidence</h3>
+              <div class="select-value" data-selecct-value>Select category</div>
 
-          <p class="project-category">He walks with eyes veiled by his own legacy — a monarch led not by sight, but by memory.</p>
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
 
-        </a>
-      </li>
+            </button>
 
-      <li class="project-item active">
-        <a href="https://drive.google.com/file/d/121pWhDNGLrrjuAygVSgYu3_HYnJmH2-M/view?usp=sharing" target="_blank">
+            <ul class="select-list">
 
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/Photography/dogwood.jpeg" alt="Carved by Time" loading="lazy">
-          </figure>
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
 
-          <h3 class="project-title">Carved by Time</h3>
+              <!--
+              <li class="select-item">
+                <button data-select-item>Web design</button>
+              </li>
 
-          <p class="project-category">This is what patience looks like, slowly shaping stone into something unforgettable.</p>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
+              </li>
 
-        </a>
-      </li>
-      
-      <li class="project-item active">
-        <a href="https://drive.google.com/file/d/1sHWl8_NiwrA9TdWoWy47vFKat8J1NHLa/view?usp=sharing" target="_blank">
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+              -->
 
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/Photography/pasic.jpeg" alt="Percussive Bonds" loading="lazy">
-          </figure>
+            </ul>
 
-          <h3 class="project-title">Percussive Bonds</h3>
+          </div>
 
-          <p class="project-category">Beyond the notes and rhythms, it was the camaraderie that made our PASIC experience unforgettable.</p>
+          <ul class="project-list">
 
-        </a>
-      </li>
-      
-      <li class="project-item active">
-        <a href="https://drive.google.com/file/d/14rPuelDi4MfV7zqUIFI9hbrpsHY8ykGB/view?usp=sharing" target="_blank">
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1zU29WAyWX8N2YIlp6qLr05WlXIe1OYdB/view?usp=sharing">
 
-          <figure class="project-img">
-            <div class="project-item-icon-box">
-              <ion-icon name="eye-outline"></ion-icon>
-            </div>
-            <img src="./assets/images/Photography/aai.jpeg" alt="In Her Tracks" loading="lazy">
-          </figure>
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
 
-          <h3 class="project-title">In Her Tracks</h3>
+                  <img src="./assets/images/Photography/aaibaba.jpeg" alt="finance" loading="lazy">
+                </figure>
 
-          <p class="project-category">She led the way, like she always does — steady, calm, and just far enough ahead to make me pedal harder. Moms have a quiet way of doing that.</p>
+                <h3 class="project-title">Through the Open Door</h3>
 
-        </a>
-      </li>
+                <p class="project-category">We touched down in the middle of nowhere, only to find everything that mattered already there.</p>
 
-    </ul>
+              </a>
+            </li>
 
-  </section>
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1TW1l4RF585xMy28oeZNPHr4TQkJXzsKz/view?usp=sharing">
 
-</article>
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Photography/longhorn.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">The Curve of Confidence</h3>
+
+                <p class="project-category">He walks with eyes veiled by his own legacy — a monarch led not by sight, but by memory.</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/121pWhDNGLrrjuAygVSgYu3_HYnJmH2-M/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Photography/dogwood.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Carved by Time</h3>
+
+                <p class="project-category">This is what patience looks like, slowly shaping stone into something unforgettable.</p>
+
+              </a>
+            </li>
+            
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/1sHWl8_NiwrA9TdWoWy47vFKat8J1NHLa/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Photography/pasic.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Percussive Bonds</h3>
+
+                <p class="project-category">Beyond the notes and rhythms, it was the camaraderie that made our PASIC experience unforgettable.</p>
+
+              </a>
+            </li>
+            
+            
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://drive.google.com/file/d/14rPuelDi4MfV7zqUIFI9hbrpsHY8ykGB/view?usp=sharing">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/Photography/aai.jpeg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">In Her Tracks</h3>
+
+                <p class="project-category">She led the way, like she always does — steady, calm, and just far enough ahead to make me pedal harder. Moms have a quiet way of doing that.</p>
+
+              </a>
+            </li>
+
+            
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
